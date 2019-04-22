@@ -1,1 +1,2 @@
-# DownHomeDerby2019
+# Down Home Derby 2019 Website
+This site was comissioned for Habitat for Humanity of Allegheny Valley. I had done their website last year and they were asking for a different one this year! I was excited to work on this one and show off what I have learned over the years in terms of CSS and SASS.
