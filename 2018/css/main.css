@@ -1,0 +1,122 @@
+body {
+	font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 2px 2px white;
+	color: black;
+	font-size: 5rem;
+}
+
+img#h-img {
+	height: 19vh;
+}
+
+nav {
+	height: 20vh;
+	box-shadow: none;
+	background-color: #fadb2b;
+}
+
+.nav-wrapper {
+	box-shadow: none;
+	background-color: #fadb2b;
+	z-index: 1;
+}
+
+#header {
+	z-index: -999;
+	margin-top: -2px;
+	width: 100%;
+}
+
+#sun {
+	height: 50vh;
+}
+
+#sun p {
+	position: absolute;
+	right: 8%;
+	top: 45%;
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 110%;
+	color: #393536;
+}
+
+@media screen and (max-width: 1200px) {
+	#sun p {
+		display: none;
+	}
+}
+
+#grass {
+	height: 15vh;
+	width: 100%;
+	background: linear-gradient(#358137, #85c749);
+}
+
+#horses {
+	position: absolute;
+	width: 80%;
+	bottom: 30%;
+}
+
+#horses img {
+	max-width: 30%;
+	max-height: 200px;
+	margin: auto;
+}
+
+.floating {
+	animation-name: floating;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+.floating2 {
+	animation-name: floating;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+.floating3 {
+	animation-name: floating;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+	from {
+		transform: translate(0, 0px);
+	}
+	65% {
+		transform: translate(0, 10px);
+	}
+	to {
+		transform: translate(0, 0px);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#sun {
+		height: 30vh;
+	}
+	#grass {
+		height: 8vh;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+}
